@@ -128,7 +128,6 @@
             
         
     </main>
-
     <footer>
         <caption>
             <a href="/ENLDWESProyectoDWES/indexProyectoDWES.php">Enrique Nieto Lorenzo</a> | 03/10/2025
