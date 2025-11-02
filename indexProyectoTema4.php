@@ -70,7 +70,7 @@
         <table border solid black 2px>
             <tr>
                 <td>0</td>
-                <td>Hola mundo y phpinfo().</td>
+                <td></td>
                 <td><a href="codigoPHP/ejercicio00.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
                 <td><a href="mostrarcodigo/muestraejercicio00.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
             </tr>
