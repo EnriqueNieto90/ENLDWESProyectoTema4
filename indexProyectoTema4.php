@@ -76,19 +76,19 @@
             </thead>
             <tr>
                 <td>Script creación de base de datos y usuario</td>
-                <td><a href=""><img src=""></a></td>
+                <td><a href="mostrarcodigo/muestrascript1.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
                 <td><a href=""></td>
                 <td><a href=""></td>
             </tr>
             <tr>
                 <td>Script carga inicial de base de datos</td>
-                <td><a href=""><img src="" alt=""></a></td>
+                <td><a href="mostrarcodigo/muestrascript2.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
                 <td><a href=""></td>
                 <td></td>
             </tr>
             <tr>
                 <td>Script borrado de base de datos y usuario</td>
-                <td><a href=""><img src="" alt=""></a></td>
+                <td><a href="mostrarcodigo/muestrascript3.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
                 <td><a href=""></td>
                 <td></td>
             </tr>
@@ -103,8 +103,8 @@
             <tr>
                 <td>1</td>
                 <td>Conexión a la base de datos.</td>
-                <td><a href=""><img src="" alt=""></a></td>
-                <td><a href=""><img src="" alt=""></a></td>
+                <td><a href="codigoPHP/ejercicio01pdo.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
+                <td><a href="mostrarcodigo/muestraejercicio01pdo.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
                 <td><a href=""><img src="" alt=""></a></td>
                 <td><a href=""><img src="" alt=""></a></td>
             </tr>
