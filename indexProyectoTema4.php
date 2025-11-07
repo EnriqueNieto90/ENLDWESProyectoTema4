@@ -111,8 +111,8 @@
             <tr>
                 <td>2</td>
                 <td>Mostrar el contenido de la tabla Departamento y el número de registros.</td>
-                <td><a href="codigoPHP/ejercicio02pdo.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio02pdo.php"></a></td>
+                <td><a href="codigoPHP/ejercicio02pdo.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
+                <td><a href="mostrarcodigo/muestraejercicio02pdo.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
                 <td><a href="codigoPHP/ejercicio02mysqli.php"></a></td>
                 <td><a href="mostrarcodigo/muestraejercicio02mysqli.php"></a></td>
             </tr>
