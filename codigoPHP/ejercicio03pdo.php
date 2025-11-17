@@ -23,7 +23,7 @@
         //--- Inicialización de variables de estado y almacenamiento ---
 
         // Flag para controlar si el formulario ha sido enviado y si los datos son correctos.
-        $bEsEntradaValida = true;
+        $bEntradaOK = true;
         // Array para almacenar los mensajes de error de cada campo del formulario.
         $aErrores = [
             'T02_CodDepartamento' => '',
@@ -51,7 +51,7 @@
             // Recorre el array de errores. Si encuentra alguno, marca la entrada como no válida.
             foreach($aErrores as $sNombreCampo => $sMensajeError){
                 if(!empty($sMensajeError)){
-                    $bEsEntradaValida = false;
+                    $bEntradaOK = false;
                 }
             }
 
@@ -67,11 +67,11 @@
 
                     if ($oSentenciaPreparada->rowCount() > 0) {
                         $aErrores['T02_CodDepartamento'] = 'El código ya existe en la BBDD';
-                        $bEsEntradaValida = false;
+                        $bEntradaOK = false;
                     }
                 } catch (PDOException $oExcepcionPDO) {
                     $aErrores['T02_CodDepartamento'] = 'Error: ' . $oExcepcionPDO->getMessage();
-                    $bEsEntradaValida = false;
+                    $bEntradaOK = false;
                 } finally {
                     unset($oConexionPDO);
                 }
@@ -79,13 +79,13 @@
 
         } else {
             // Si el formulario no se ha enviado (primera visita), se fuerza a que se muestre.
-            $bEsEntradaValida = false;
+            $bEntradaOK = false;
         }
         ?>
 
         <?php
         // --- Tratamiento de la lógica principal: Inserción o Visualización del Formulario ---
-        if($bEsEntradaValida){
+        if($bEntradaOK){
             // Si la entrada es válida, prepara los datos y los inserta en la BBDD.
             $aRespuestas['T02_CodDepartamento'] = strtoupper($_REQUEST['T02_CodDepartamento']);
             $aRespuestas['T02_DescDepartamento'] = "Departamento de ".$_REQUEST['T02_DescDepartamento'];
