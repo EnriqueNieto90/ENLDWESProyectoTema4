@@ -2,62 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>EJERCICIO 2 PDO</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: green;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        main {
-            max-width: 1400px;
-            margin: 30px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            background: #ecf0f1;
-            margin: 10px 0;
-            padding: 15px;
-            border-left: 5px solid green;
-            border-right: 5px solid green;
-            transition: 0.3s;
-	    border-radius:8px;
-        }
-        li:hover {
-            background: #d6eaf8;
-            border-left: 5px solid purple;
-            border-right: 5px solid purple;
-        }
-
-        footer{
-            margin: auto;
-            background-color: green;
-            text-align: center;
-            height: 150px;
-	    color: white;
-        }
-	main{
-	justify-content:center;
-	}
-
-    </style>
+    <title>EJERCICIO 2 PDO</title> 
+        <link rel="stylesheet" href="../webroot/css/estiloGeneral.css">
 </head>
 <body>
     <header>
@@ -71,10 +17,18 @@
              * @since: 07/11/2025
              * 2. Mostrar el contenido de la tabla Departamento y el número de registros.
              */
-             // preparación de los datos de conexión para luego usarlos en el PDO
-             const DSN = "mysql:host=10.199.9.184; dbname=DBENLDWESProyectoTema4";
-             const USERNAME = 'userENLDWESProyectoTema4';
-             const PASSWORD = 'paso';
+             //Preparamos datos de conexión (instituto)
+            
+//            const DSN = "mysql:host=10.199.9.184; dbname=DBENLDWESProyectoTema4";
+//            const USERNAME = 'userENLDWESProyectoTema4';
+//            const PASSWORD = 'paso';
+            
+            //Preparamos datos de conexión (casa)
+            
+            const DSN = "mysql:host=192.168.1.131; dbname=DBENLDWESProyectoTema4";
+            const USERNAME = 'userENLDWESProyectoTema4';
+            const PASSWORD = 'paso';
+             
 
              echo '<h3>Tabla usando consultas preparadas</h3>';
              // variable para contar el numero de registros recuperados de la BBDD

@@ -119,8 +119,8 @@
             <tr>
                 <td>3</td>
                 <td>Formulario para añadir un departamento a la tabla Departamento.</td>
-                <td><a href="codigoPHP/ejercicio03pdo.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio03pdo.php"></a></td>
+                <td><a href="codigoPHP/ejercicio03pdo.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
+                <td><a href="mostrarcodigo/muestraejercicio03pdo.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
                 <td><a href="codigoPHP/ejercicio03mysqli.php"></a></td>
                 <td><a href="mostrarcodigo/muestraejercicio03mysqli.php"></a></td>
             </tr>
