@@ -135,8 +135,8 @@
             <tr>
                 <td>5</td>
                 <td>Pagina web que añade tres registros a nuestra tabla Departamento.</td>
-                <td><a href="codigoPHP/ejercicio05pdo.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio05pdo.php"></a></td>
+                <td><a href="codigoPHP/ejercicio05pdo.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
+                <td><a href="mostrarcodigo/muestraejercicio05pdo.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
                 <td><a href="codigoPHP/ejercicio05mysqli.php"></a></td>
                 <td><a href="mostrarcodigo/muestraejercicio05mysqli.php"></a></td>
             </tr>
