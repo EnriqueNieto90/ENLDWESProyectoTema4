@@ -14,11 +14,10 @@
         <?php
         // Incluye la librería de validación de formularios, que contiene funciones reutilizables.
         include_once "../core/231018libreriaValidacion.php";
+        
+        //Enlace a los datos de conexión
+                require_once '../config/confDBPDO.php';
 
-        // Define las constantes para la conexión a la base de datos (DSN, usuario y contraseña).
-        define('DSN', 'mysql:host=' . $_SERVER['SERVER_ADDR'] . '; dbname=DBENLDWESProyectoTema4');
-        define('USERNAME','userENLDWESProyectoTema4');
-        define('PASSWORD','paso');
 
         //--- Inicialización de variables de estado y almacenamiento ---
 

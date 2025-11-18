@@ -40,10 +40,9 @@
     </header>
     <main>  
         <?php
-        // Define las constantes para la conexión a la base de datos (DSN, usuario y contraseña).
-        define('DSN', 'mysql:host=' . $_SERVER['SERVER_ADDR'] . '; dbname=DBENLDWESProyectoTema4');
-        define('USERNAME','userENLDWESProyectoTema4');
-        define('PASSWORD','paso');
+        
+        //Enlace a los datos de conexión
+                require_once '../config/confDBPDO.php';
 
         // --- Lógica de la transacción ---
 

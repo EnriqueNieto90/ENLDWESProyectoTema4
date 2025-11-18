@@ -17,19 +17,10 @@
              * @since: 07/11/2025
              * 2. Mostrar el contenido de la tabla Departamento y el número de registros.
              */
-             //Preparamos datos de conexión (instituto)
-            
-//            const DSN = "mysql:host=10.199.9.184; dbname=DBENLDWESProyectoTema4";
-//            const USERNAME = 'userENLDWESProyectoTema4';
-//            const PASSWORD = 'paso';
-            
-            //Preparamos datos de conexión (casa)
-            
-            const DSN = "mysql:host=192.168.1.131; dbname=DBENLDWESProyectoTema4";
-            const USERNAME = 'userENLDWESProyectoTema4';
-            const PASSWORD = 'paso';
              
-
+            //Enlace a los datos de conexión
+                require_once '../config/confDBPDO.php';
+             
              echo '<h3>Tabla usando consultas preparadas</h3>';
              // variable para contar el numero de registros recuperados de la BBDD
              $numRegistros = 0;

@@ -72,18 +72,9 @@
             * 1. Conexión a la base de datos con la cuenta usuario y tratamiento de errores.
             */
 
-            //Preparamos datos de conexión (instituto)
             
-//            const DSN = "mysql:host=10.199.9.184; dbname=DBENLDWESProyectoTema4";
-//            const USERNAME = 'userENLDWESProyectoTema4';
-//            const PASSWORD = 'paso';
-            
-            //Preparamos datos de conexión (casa)
-            
-            const DSN = "mysql:host=192.168.1.131; dbname=DBENLDWESProyectoTema4";
-            const USERNAME = 'userENLDWESProyectoTema4';
-            const PASSWORD = 'paso';
-
+            //Enlace a los datos de conexión
+                require_once '../config/confDBPDO.php';
          
             //Array de los atributos de la conexión
             
