@@ -4,37 +4,6 @@
     <meta charset="UTF-8">
     <title>EJERCICIO 2 PDO</title> 
         <link rel="stylesheet" href="../webroot/css/estiloGeneral.css">
-        <style>
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                margin-top: 40px;
-                box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-            }
-
-            th, td {
-                padding: 15px;
-                border: 1px solid #ddd;
-                text-align: left;
-            }
-
-            th {
-                background-color: green;
-                color: white;
-                font-weight: bold;
-                text-transform: uppercase;
-                font-size: 0.9em;
-            }
-
-            tr:nth-child(even) {
-                background-color: #f9f9f9;
-            }
-
-            tr:hover {
-                background-color: #d6eaf8;
-                cursor: pointer;
-            }
-        </style>
 </head>
 <body>
     <header>

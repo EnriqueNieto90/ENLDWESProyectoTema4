@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>TEMA 4 - TÉCNICAS DE ACCESO A DATOS EN PHP</title>
+    <link rel="stylesheet" href="./webroot/css/estiloFormularioTabla.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -68,7 +69,7 @@
         <h2><b>ÍNDICE EJERCICIOS TEMA 4</b></h2>
         
         
-        <table border solid black 2px>
+        <table>
             <thead>
             <th></th>
             <th>ED</th>
@@ -93,7 +94,7 @@
                 <td></td>
             </tr>
         </table>
-        <table border solid black 2px>
+        <table>
             <thead>
             <th>Num</th>
             <th>Descripción</th>
