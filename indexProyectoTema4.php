@@ -2,175 +2,160 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>TEMA 4 - TÉCNICAS DE ACCESO A DATOS EN PHP</title>
-    <link rel="stylesheet" href="./webroot/css/estiloFormularioTabla.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: green;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        main {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            background: #ecf0f1;
-            margin: 10px 0;
-            padding: 15px;
-            border-left: 5px solid green;
-            border-right: 5px solid green;
-            transition: 0.3s;
-	    border-radius:8px;
-        }
-        li:hover {
-            background: #d6eaf8;
-            border-left: 5px solid purple;
-            border-right: 5px solid purple;
-        }
-        img {
-            height: 25px;
-        }
-
-        footer{
-            margin: auto;
-            background-color: green;
-            text-align: center;
-            height: 150px;
-	    color: white;
-        }
-	
-
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 4 | Enrique Nieto</title>
+    
+    <link rel="stylesheet" href="../webroot/css/fonts.css">
+    <link rel="stylesheet" href="../webroot/css/all.min.css">
+    <link rel="stylesheet" href="webroot/css/estilos.css"> 
+    <link rel="stylesheet" href="webroot/css/estilosTabla.css"> 
 </head>
 <body>
-    <header>
-        <h1><b>TEMA 4 - TÉCNICAS DE ACCESO A DATOS EN PHP</b></h1>
+
+    <header class="cabecera-principal">
+        <div class="contenedor contenido-cabecera">
+            <div class="identidad">
+                <a href="../index.html" style="text-decoration:none;">
+                    <div class="logo-iniciales">EN</div>
+                </a>
+                <h1>Enrique Nieto Lorenzo</h1>
+            </div>
+            <div class="curso-badge" style="background-color: #777BB4; color: white;">
+                Tema 4
+            </div>
+        </div>
     </header>
-    <main>
-        <h2><b>ÍNDICE EJERCICIOS TEMA 4</b></h2>
+
+    <main class="contenedor-principal">
         
+        <h2 class="titulo-pagina">Técnicas de Acceso a Datos en PHP</h2>
         
-        <table>
-            <thead>
-            <th></th>
-            <th>ED</th>
-            <th colspan="2">EE</th>
-            </thead>
-            <tr>
-                <td>Script creación de base de datos y usuario</td>
-                <td><a href="mostrarcodigo/muestrascript1.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
-                <td><a href=""></td>
-                <td><a href=""></td>
-            </tr>
-            <tr>
-                <td>Script carga inicial de base de datos</td>
-                <td><a href="mostrarcodigo/muestrascript2.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
-                <td><a href=""></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Script borrado de base de datos y usuario</td>
-                <td><a href="mostrarcodigo/muestrascript3.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
-                <td><a href=""></td>
-                <td></td>
-            </tr>
-        </table>
-        <table>
-            <thead>
-            <th>Num</th>
-            <th>Descripción</th>
-            <th colspan="2">PDO</th>
-            <th colspan="2">MySQLi</th>
-            </thead>
-            <tr>
-                <td>1</td>
-                <td>Conexión a la base de datos.</td>
-                <td><a href="codigoPHP/ejercicio01pdo.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio01pdo.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
-                <td><a href=""><img src="" alt=""></a></td>
-                <td><a href=""><img src="" alt=""></a></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Mostrar el contenido de la tabla Departamento y el número de registros.</td>
-                <td><a href="codigoPHP/ejercicio02pdo.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio02pdo.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
-                <td><a href="codigoPHP/ejercicio02mysqli.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio02mysqli.php"></a></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Formulario para añadir un departamento a la tabla Departamento.</td>
-                <td><a href="codigoPHP/ejercicio03pdo.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio03pdo.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
-                <td><a href="codigoPHP/ejercicio03mysqli.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio03mysqli.php"></a></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Formulario de búsqueda de departamentos por descripción .</td>
-                <td><a href="codigoPHP/ejercicio04pdo.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio04pdo.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
-                <td><a href="codigoPHP/ejercicio04mysqli.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio04mysqli.php"></a></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Pagina web que añade tres registros a nuestra tabla Departamento.</td>
-                <td><a href="codigoPHP/ejercicio05pdo.php"><img src="webroot/media/images/botonplay.png" alt="boton_play"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio05pdo.php"><img src="webroot/media/images/botoncode.png" alt="boton_code"></a></td>
-                <td><a href="codigoPHP/ejercicio05mysqli.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio05mysqli.php"></a></td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Pagina web que cargue registros en la tabla Departamento.</td>
-                <td><a href="codigoPHP/ejercicio06pdo.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio06pdo.php"></a></td>
-                <td><a href="codigoPHP/ejercicio06mysqli.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio06mysqli.php"></a></td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Página web que toma datos (código y descripción) de un fichero xml y los añade a la tabla.</td>
-                <td><a href="codigoPHP/ejercicio07pdo.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio07pdo.php"></a></td>
-                <td><a href="codigoPHP/ejercicio07mysqli.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio07mysqli.php"></a></td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>Página web que toma datos (código y descripción) de la tabla Departamento.</td>
-                <td><a href="codigoPHP/ejercicio08pdo.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio08pdo.php"></a></td>
-                <td><a href="codigoPHP/ejercicio08mysqli.php"></a></td>
-                <td><a href="mostrarcodigo/muestraejercicio08mysqli.php"></a></td>
-            </tr>
-        </table>
+        <h3 class="subtitulo-tabla">Scripts de Configuración</h3>
+        <div class="contenedor-tabla">
+            <table class="tabla-ejercicios">
+                <thead>
+                    <tr>
+                        <th>Descripción del Script</th>
+                        <th class="col-centro">Ver Código</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Script creación de base de datos y usuario</td>
+                        <td>
+                            <a href="mostrarcodigo/muestrascript1.php" class="btn-accion btn-code" title="Ver Código">
+                                <i class="fa-solid fa-file-code"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Script carga inicial de base de datos</td>
+                        <td>
+                            <a href="mostrarcodigo/muestrascript2.php" class="btn-accion btn-code" title="Ver Código">
+                                <i class="fa-solid fa-file-code"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Script borrado de base de datos y usuario</td>
+                        <td>
+                            <a href="mostrarcodigo/muestrascript3.php" class="btn-accion btn-code" title="Ver Código">
+                                <i class="fa-solid fa-file-code"></i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br><br>
+
+        <h3 class="subtitulo-tabla">Ejercicios con PDO</h3>
+        <div class="contenedor-tabla">
+            <table class="tabla-ejercicios">
+                <thead>
+                    <tr>
+                        <th class="col-centro">Nº</th>
+                        <th>Descripción</th>
+                        <th class="col-centro">Ejecutar PDO</th>
+                        <th class="col-centro">Código PDO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td class="col-num">1</td>
+                        <td>Conexión a la base de datos.</td>
+                        <td><a href="codigoPHP/ejercicio01pdo.php" class="btn-accion btn-play"><i class="fa-solid fa-play"></i></a></td>
+                        <td><a href="mostrarcodigo/muestraejercicio01pdo.php" class="btn-accion btn-code"><i class="fa-solid fa-code"></i></a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-num">2</td>
+                        <td>Mostrar el contenido de la tabla Departamento y el número de registros.</td>
+                        <td><a href="codigoPHP/ejercicio02pdo.php" class="btn-accion btn-play"><i class="fa-solid fa-play"></i></a></td>
+                        <td><a href="mostrarcodigo/muestraejercicio02pdo.php" class="btn-accion btn-code"><i class="fa-solid fa-code"></i></a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-num">3</td>
+                        <td>Formulario para añadir un departamento a la tabla Departamento.</td>
+                        <td><a href="codigoPHP/ejercicio03pdo.php" class="btn-accion btn-play"><i class="fa-solid fa-play"></i></a></td>
+                        <td><a href="mostrarcodigo/muestraejercicio03pdo.php" class="btn-accion btn-code"><i class="fa-solid fa-code"></i></a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-num">4</td>
+                        <td>Formulario de búsqueda de departamentos por descripción.</td>
+                        <td><a href="codigoPHP/ejercicio04pdo.php" class="btn-accion btn-play"><i class="fa-solid fa-play"></i></a></td>
+                        <td><a href="mostrarcodigo/muestraejercicio04pdo.php" class="btn-accion btn-code"><i class="fa-solid fa-code"></i></a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-num">5</td>
+                        <td>Pagina web que añade tres registros a nuestra tabla Departamento.</td>
+                        <td><a href="codigoPHP/ejercicio05pdo.php" class="btn-accion btn-play"><i class="fa-solid fa-play"></i></a></td>
+                        <td><a href="mostrarcodigo/muestraejercicio05pdo.php" class="btn-accion btn-code"><i class="fa-solid fa-code"></i></a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-num">6</td>
+                        <td>Pagina web que cargue registros en la tabla Departamento.</td>
+                        <td></td> <td></td> </tr>
+
+                    <tr>
+                        <td class="col-num">7</td>
+                        <td>Página web que toma datos (código y descripción) de un fichero xml y los añade a la tabla.</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-num">8</td>
+                        <td>Página web que toma datos (código y descripción) de la tabla Departamento.</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
     </main>
-    <footer>
-        <caption>
-            <a href="/ENLDWESProyectoDWES/indexProyectoDWES.php">Enrique Nieto Lorenzo</a> | 03/10/2025
-        </caption>
+
+    <footer class="pie-pagina">
+        <div class="contenedor contenido-footer">
+            <div class="texto-legal">
+                <p>2025-26 IES LOS SAUCES. ©Todos los derechos reservados.</p>
+                <p class="autor">Enrique Nieto Lorenzo. Fecha de Actualización: 07-01-2026</p>
+            </div>
+            <div class="iconos-footer">
+                <a href="https://github.com/EnriqueNieto90/ENLDWESProyectoTema4" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="../index.html" title="Inicio"><i class="fa-solid fa-house"></i></a> 
+                <a href="../ENLDWESProyectoDWES/indexProyectoDWES.php" title="Volver a DWES"><i class="fa-solid fa-arrow-turn-up"></i></a>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
