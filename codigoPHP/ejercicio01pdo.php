@@ -74,7 +74,7 @@
 
             
             //Enlace a los datos de conexión
-                require_once '../config/confDBPDO.php';
+                require_once '../config/EDconfDBPDO.php';
          
             //Array de los atributos de la conexión
             

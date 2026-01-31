@@ -16,7 +16,7 @@
         include_once "../core/231018libreriaValidacion.php";
         
         //Enlace a los datos de conexión
-                require_once '../config/confDBPDO.php';
+                require_once '../config/EDconfDBPDO.php';
 
 
         //--- Inicialización de variables de estado y almacenamiento ---
