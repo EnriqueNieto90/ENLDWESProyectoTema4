@@ -19,7 +19,7 @@
              */
              
             //Enlace a los datos de conexión
-                require_once '../config/confDBPDO.php';
+                require_once '../config/EDconfDBPDO.php';
              
              echo '<h3>Tabla usando consultas preparadas</h3>';
              // variable para contar el numero de registros recuperados de la BBDD

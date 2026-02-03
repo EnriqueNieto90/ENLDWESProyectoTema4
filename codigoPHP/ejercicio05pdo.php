@@ -42,7 +42,7 @@
         <?php
         
         //Enlace a los datos de conexión
-                require_once '../config/confDBPDO.php';
+                require_once '../config/EDconfDBPDO.php';
 
         // --- Lógica de la transacción ---
 

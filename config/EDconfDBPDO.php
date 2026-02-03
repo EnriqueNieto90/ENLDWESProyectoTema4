@@ -1,6 +1,6 @@
 <?php
 
-    define('DSN', 'mysql:host=' . $_SERVER['SERVER_ADDR'] . ';dbname=DBENLDWESProyectoTema4');
+    define('DSN', 'mysql:host=localhost;dbname=DBENLDWESProyectoTema4');
     define('USERNAME', 'userENLDWESProyectoTema4');
     define('PASSWORD', 'paso');
 
